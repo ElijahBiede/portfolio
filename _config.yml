@@ -2,8 +2,8 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /posts/:year/:month/:day/:title 
 
-production_url: https://hbiede.com
-resource_url: https://hbiede.com/assets
+production_url: https://ebiede.com
+resource_url: https://ebiede.com/assets
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
@@ -22,14 +22,14 @@ jobs-shown: 5
 skills-shown: 10
 
 # Author Info
-title: HBiede
-tagline: Hundter Biede's Portfolio
+title: EBiede
+tagline: Elijah Biede's Portfolio
 author:
-  name: Hundter Biede
+  name: Hundter 'Elijah' Biede
   job_title: Computer Science Student
   email: hbiede@huskers.unl.edu
   location: Lincoln, NE
-  about_text: Hundter Biede is a senior at the University of Nebraska-Lincoln, currently studying Computer Science with a goal of obtaining a Master's degree. Hundter enjoys working for introductory Computer Science courses as a learning assistant, reffing intramural football, and playing board/card games with friends. 
+  about_text: Elijah Biede is a senior at the University of Nebraska-Lincoln, currently studying Computer Science with a goal of obtaining a Master's degree. Elijah enjoys working for introductory Computer Science courses as a learning assistant, reffing intramural football, and playing board/card games with friends. 
   image: /images/headshot.jpg
   big_image: /images/headshot-full.jpg
   social_links:
