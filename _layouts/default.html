@@ -22,9 +22,9 @@
                             date: "%A, %B %-d, %Y"}}
                         </time>
                     </div>
-                    {% if project.links.size > 0 %}
+                    {% if page.links.size > 0 %}
                     <p>
-                        {% for link in project.links %}
+                        {% for link in page.links %}
                         <a class="more-link" href="{{ link.link }}"
                                    target="_blank"><i class="fas fa-external-link-alt"></i>{{ link.name }}</a>
                         {% endfor %}
