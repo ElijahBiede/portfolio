@@ -14,6 +14,8 @@
                     <h2 class="postTitle">{{ page.title | smartify }}</h2>
                     {% if page.subtitle %}
                     <h3 class="subtitle">{{ page.subtitle | smartify }}</h3>
+                    {% elsif page.description %}
+                    <h3 class="subtitle">{{ page.description | smartify }}</h3>
                     {% endif %}
                     <div class="byline" itemscope itemtype="http://schema.org/Person"><span itemprop="author" hidden>{{ site.author.name}}</span>
                         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date |
